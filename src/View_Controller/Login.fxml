@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.LoginController">
+   <children>
+      <Label fx:id="labelUN" layoutX="272.0" layoutY="220.0" text="Username">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelPW" layoutX="287.0" layoutY="306.0" text="Password">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="592.0" layoutY="237.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="password" layoutX="592.0" layoutY="322.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonLogin" layoutX="763.0" layoutY="382.0" mnemonicParsing="false" onAction="#loginPushed" text="Login">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonExit" layoutX="1146.0" layoutY="647.0" mnemonicParsing="false" onAction="#exitButton" text="Exit">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

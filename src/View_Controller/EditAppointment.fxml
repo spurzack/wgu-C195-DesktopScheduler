@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.EditAppointmentController">
+    <children>
+        <Label layoutX="206.0" layoutY="20.0" text="Edit Appointment">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <Label layoutX="141.0" layoutY="75.0" text="Customer">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+        <TextField fx:id="CustomerField" editable="false" layoutX="269.0" layoutY="75.0" />
+        <Label layoutX="176.0" layoutY="110.0" text="Date">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+        <DatePicker fx:id="Date" layoutX="269.0" layoutY="110.0" />
+        <Label layoutX="158.0" layoutY="180.0" text="Contact">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+        <Label layoutX="175.0" layoutY="145.0" text="Time">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+        <ComboBox fx:id="Time" layoutX="269.0" layoutY="145.0" prefWidth="150.0" />
+        <ComboBox fx:id="Contact" layoutX="269.0" layoutY="180.0" prefWidth="150.0" />
+        <Label layoutX="78.0" layoutY="250.0" text="Appointment Type">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+        <Label layoutX="155.0" layoutY="215.0" text="Location">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <TextField fx:id="ApptType" layoutX="270.0" layoutY="250.0" />
+      <Button layoutX="118.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleSaveButton" text="Save">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="407.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleBackButton" text="Cancel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="Locations" layoutX="269.0" layoutY="215.0" prefWidth="150.0" />
+    </children>
+</AnchorPane>
