@@ -1,4 +1,4 @@
-# WGU - C195 - Desktop Scheduler
+# Desktop Scheduler
 
 ## Project Completed 9/2020
 > The submission includes an application that correctly logs in the user and provides functionality to create, update and delete customer and appointment records. The application includes a scheduling interface application. The application includes the required exception controls and the appointment times automatically adjust to time zones. The application correctly displays a reminder for upcoming appointments.
